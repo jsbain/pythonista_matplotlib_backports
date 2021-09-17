@@ -35,10 +35,10 @@ import numpy as np
 from Image import Image
 
 import matplotlib as mpl
-from _animation_data import (
+from ._animation_data import (
     DISPLAY_TEMPLATE, INCLUDED_FRAMES, JS_INCLUDE, STYLE_INCLUDE)
 
-import _api
+from . import _api
 #from matplotlib import _api, cbook
 
 
